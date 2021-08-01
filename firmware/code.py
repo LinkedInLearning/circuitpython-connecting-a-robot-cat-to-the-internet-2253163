@@ -5,6 +5,18 @@ from digitalio import DigitalInOut, Direction
 import pulseio
 from adafruit_motor import servo
 
+from adafruit_esp32spi import adafruit_esp32spi_wifimanager
+from adafruit_esp32spi import adafruit_esp32spi
+import busio
+from secrets import secrets
+
+cs = DigitalInOut(board.ESP_CS)
+busy = DigitalInOut(board.ESP_BUSY)
+reset = DigitalInOut(board.ESP_RESET)
+spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
+esp = adafruit_esp32spi.ESP_SPIcontrol(spi, cs, busy, reset)
+wifi = adafruit_esp32spi_wifimanager.ESPSPI_WiFiManager(esp, secrets)
+
 pwm1 = pulseio.PWMOut(board.D8, frequency=50)
 pwm2 = pulseio.PWMOut(board.D9, frequency=50)
 
@@ -54,7 +66,6 @@ def move_right():
     
     servo2.angle = 90
     time.sleep(servo_pause)
-    
+
+wifi.connect()
 move_both()
-move_left()
-move_right()

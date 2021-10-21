@@ -1,9 +1,8 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# CircuitPython: Connecting a robot cat to the internet 
+This is the repository for the LinkedIn Learning course `CircuitPython: Connecting a robot cat to the internet `. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![course-name-alt-text][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -23,11 +22,8 @@ To resolve this issue:
 	Commit changes using this command: git commit -m "some message"
 
 ## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
-
+1. To use these exercise files, you must copy and paste `firmware/code.py` into a file named `code.py` on your CircuitPython compatible board (the course uses the "Adafruit Metro M4 Express Airlift Lite" board).
+2. (Optional) Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 

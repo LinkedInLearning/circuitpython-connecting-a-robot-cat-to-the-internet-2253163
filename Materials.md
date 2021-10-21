@@ -1,6 +1,6 @@
-*Materials*
+#Materials#
 
-**Main components**
+##Main components##
 
 1 x [<span class="underline">Adafruit Metro M4 Express Airlift</span>]
 
@@ -14,7 +14,7 @@
 
 
 
-**Testing/Wiring**
+##Testing/Wiring##
 
 1 x [<span class="underline">Half size breadboard</span>]
 
@@ -24,7 +24,7 @@
 
 
 
-**Prototyping components**
+##Prototyping components##
 
 1 x [<span class="underline">Adafruit Proto Shield kit</span>]
 
@@ -44,7 +44,7 @@ Heat shrink tubing (recommend [<span class="underline">this one</span>])
 
 
 
-**Prototyping tools**
+##Prototyping tools##
 
 Soldering Iron- I use the [<span class="underline">Hakko FX-888D</span>]
 

@@ -12,6 +12,8 @@
 
 1 x cat plush (should have enough room for servos to fit)
 
+
+
 **Testing/Wiring**
 
 1 x [<span class="underline">Half size breadboard</span>]
@@ -19,6 +21,8 @@
 [<span class="underline">Pin-to-pin jumper wires</span>]
 
 [<span class="underline">Pin-to-port jumper wires </span>]
+
+
 
 **Prototyping components**
 
@@ -37,6 +41,8 @@
 [<span class="underline">Ribbon cable</span>] (for the neopixel)
 
 Heat shrink tubing (recommend [<span class="underline">this one</span>])
+
+
 
 **Prototyping tools**
 

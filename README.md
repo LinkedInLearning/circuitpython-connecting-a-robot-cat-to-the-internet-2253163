@@ -92,3 +92,4 @@ Learners can instead choose to get [Ladyada's Electronics Toolkit], which will i
   [<span class="underline">Flush cutters</span>]: https://www.adafruit.com/product/152
   [<span class="underline">this set</span>]: https://www.adafruit.com/product/424
   [Ladyada's Electronics Toolkit]: https://www.adafruit.com/product/136
+  

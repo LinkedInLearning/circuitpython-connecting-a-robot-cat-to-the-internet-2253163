@@ -1,7 +1,9 @@
-# CircuitPython: Connecting a robot cat to the internet 
-This is the repository for the LinkedIn Learning course `CircuitPython: Connecting a robot cat to the internet `. The full course is available from [LinkedIn Learning][lil-course-url].
+# CircuitPython: Connecting a Robot Cat to the Internet
+This is the repository for the LinkedIn Learning course CircuitPython: Connecting a Robot Cat to the Internet. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![course-name-alt-text][lil-thumbnail-url] 
+![CircuitPython: Connecting a Robot Cat to the Internet][lil-thumbnail-url] 
+
+While many Internet of Things projects send data to the cloud, sometimes you want a physical indication of an event from the internet. In this course, Charlyn Gonda shows you how to use CircuitPython—a version of Python specifically for microcontrollers—to program a robot cat that reacts to events while connected to the internet. Charlyn shows how to code for common hardware devices like LEDs and servos, and explains a common messaging protocol for IoT projects called message queue telemetry transport, or MQTT. If you’re looking for an internet cat video that actually teaches you something useful, join Charlyn as she shows how to program this robot cat.
 
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -25,8 +27,15 @@ To resolve this issue:
 1. To use these exercise files, you must copy and paste `firmware/code.py` into a file named `code.py` on your CircuitPython compatible board (the course uses the "Adafruit Metro M4 Express Airlift Lite" board).
 2. (Optional) Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Charlyn Gonda 
+                            
 
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/charlyn-gonda).
+
+[lil-course-url]: https://www.linkedin.com/learning/circuitpython-connecting-a-robot-cat-to-the-internet
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2253163/2253163-1635874806475-16x9.jpg

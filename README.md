@@ -1,95 +1,41 @@
-# Materials
+# CircuitPython: Connecting a Robot Cat to the Internet
+This is the repository for the LinkedIn Learning course CircuitPython: Connecting a Robot Cat to the Internet. The full course is available from [LinkedIn Learning][lil-course-url].
 
-## Main components
-1 - [<span class="underline">Adafruit Metro M4 Express Airlift</span>]
+![CircuitPython: Connecting a Robot Cat to the Internet][lil-thumbnail-url] 
 
-1 - [<span class="underline">8 mm NeopPixel LED</span>] ([<span class="underline">5 mm</span>] works too)
+While many Internet of Things projects send data to the cloud, sometimes you want a physical indication of an event from the internet. In this course, Charlyn Gonda shows you how to use CircuitPython—a version of Python specifically for microcontrollers—to program a robot cat that reacts to events while connected to the internet. Charlyn shows how to code for common hardware devices like LEDs and servos, and explains a common messaging protocol for IoT projects called message queue telemetry transport, or MQTT. If you’re looking for an internet cat video that actually teaches you something useful, join Charlyn as she shows how to program this robot cat.
 
-2 - [<span class="underline">MG90 servos</span>]
+## Instructions
+This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
-1 - [<span class="underline">1000 uF capacitor</span>]
+## Branches
+The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
+Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
 
-1 - cat plush (should have enough room for servos to fit)
+When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
 
+    error: Your local changes to the following files would be overwritten by checkout:        [files]
+    Please commit your changes or stash them before you switch branches.
+    Aborting
 
+To resolve this issue:
+	
+    Add changes to git using this command: git add .
+	Commit changes using this command: git commit -m "some message"
 
-## Testing and wiring
-1 - [<span class="underline">half-size breadboard</span>]
+## Installing
+1. To use these exercise files, you must copy and paste `firmware/code.py` into a file named `code.py` on your CircuitPython compatible board (the course uses the "Adafruit Metro M4 Express Airlift Lite" board).
+2. (Optional) Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 
-[<span class="underline">Pin-to-pin jumper wires</span>]
+### Instructor
 
-[<span class="underline">Pin-to-port jumper wires </span>]
-
-
-
-## Prototyping components
-1 - [<span class="underline">Adafruit Proto Shield kit</span>]
-
-1 - [<span class="underline">3-pin 0.1" pitch terminal block</span>]
-
-1 - [<span class="underline">4 AA battery holder with plug</span>] 
-
-4 - [<span class="underline">AA batteries</span>]
-
-[<span class="underline">Right-angle headers</span>]
-
-[<span class="underline">Set of 22 AWG solid core wires</span>]
-
-[<span class="underline">Ribbon cable</span>] (for the NeoPixel LED)
-
-Heat-shrink tubing (recommend [<span class="underline">this one</span>])
+Charlyn Gonda 
+                            
 
 
+                            
 
-## Prototyping tools
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/charlyn-gonda).
 
-Soldering iron – I use the [<span class="underline">Hakko FX-888D</span>]
-
-Solder – I use [<span class="underline">this 60/40 rosin core</span>], but [<span class="underline">lead-free</span>] is great too
-
-Safety glasses – I use these [<span class="underline">stylish ones</span>]
-
-Solder fume extractor – I use this [<span class="underline">awesome KOTTO one</span>]
-
-Silicone soldering mat (to protect your work surface) – I use [<span class="underline">this one</span>][1] 
-
-[<span class="underline">Panavise Jr.</span>] (to secure the proto shield for soldering)
-
-[<span class="underline">Wire strippers</span>]
-
-[<span class="underline">Flush cutters</span>]
-
-1.4 mm flathead screwdriver (for the terminal block) – I use [<span class="underline">this set</span>]
-
-
-## Alternative material kit
-Learners can instead choose to get [Ladyada's Electronics Toolkit], which will include many of the tools above and more. 
-
- [<span class="underline">Adafruit Metro M4 Express Airlift</span>]: https://www.adafruit.com/product/4000
-  [<span class="underline">8 mm NeopPixel LED</span>]: https://www.adafruit.com/product/1734
-  [<span class="underline">5 mm</span>]: https://www.adafruit.com/product/1938
-  [<span class="underline">MG90 servos</span>]: https://www.adafruit.com/product/1143
-  [<span class="underline">1000 uF capacitor</span>]: https://amzn.to/3o43nsp
-  [<span class="underline">half-size breadboard</span>]: https://www.adafruit.com/product/64
-  [<span class="underline">Pin-to-pin jumper wires</span>]: https://www.adafruit.com/product/759
-  [<span class="underline">Pin-to-port jumper wires </span>]: https://www.adafruit.com/product/1953
-  [<span class="underline">Adafruit Proto Shield kit</span>]: https://www.adafruit.com/product/2077
-  [<span class="underline">3-pin 0.1" pitch terminal block</span>]: https://www.adafruit.com/product/2136
-  [<span class="underline">4 AA battery holder with plug</span>]: https://www.adafruit.com/product/3788
-  [<span class="underline">AA batteries</span>]: https://amzn.to/3CNYgAR
-  [<span class="underline">Right-angle headers</span>]: https://www.adafruit.com/product/1540
-  [<span class="underline">Set of 22 AWG solid core wires</span>]: https://www.adafruit.com/product/1311
-  [<span class="underline">Ribbon cable</span>]: https://amzn.to/39xVind
-  [<span class="underline">this one</span>]: https://amzn.to/3AHbNcC
-  [<span class="underline">Hakko FX-888D</span>]: https://www.adafruit.com/product/1204
-  [<span class="underline">this 60/40 rosin core</span>]: https://www.adafruit.com/product/1886
-  [<span class="underline">lead-free</span>]: https://www.adafruit.com/product/1930
-  [<span class="underline">stylish ones</span>]: https://amzn.to/3lQqT9A
-  [<span class="underline">awesome KOTTO one</span>]: https://amzn.to/3CM4txg
-  [1]: https://amzn.to/2Y0tyFH
-  [<span class="underline">Panavise Jr.</span>]: https://www.adafruit.com/product/151
-  [<span class="underline">Wire strippers</span>]: https://www.adafruit.com/product/147
-  [<span class="underline">Flush cutters</span>]: https://www.adafruit.com/product/152
-  [<span class="underline">this set</span>]: https://www.adafruit.com/product/424
-  [Ladyada's Electronics Toolkit]: https://www.adafruit.com/product/136
-  
+[lil-course-url]: https://www.linkedin.com/learning/circuitpython-connecting-a-robot-cat-to-the-internet
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2253163/2253163-1635874806475-16x9.jpg
